@@ -1,21 +1,16 @@
 {
-  "name": "ts-lib-boilerplate",
+  "name": "anymoelib",
   "version": "1.0.0",
-  "description": "Typescript library boilerplate",
-  "main": "dist/my-lib.umd.js",
-  "module": "dist/my-lib.esm.js",
+  "description": "library for anymoe",
+  "main": "dist/anymoelib.umd.js",
+  "module": "dist/anymoelib.esm.js",
   "typings": "dist/types/index.d.ts",
-  "keywords": [
-    "boilerplate",
-    "typescriplt",
-    "lib"
-  ],
   "scripts": {
     "watch": "rollup -c rollup.config.ts -w",
     "build": "rimraf ./dist && tsc --module commonjs && rollup -c rollup.config.ts"
   },
-  "author": "BackRunner",
-  "license": "MIT",
+  "author": "AnyMoe Team",
+  "license": "GPLv3",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-json": "^4.1.0",
