@@ -1,6 +1,6 @@
 {
-  "name": "anymoelib",
-  "version": "1.0.0",
+  "name": "anymoe-lib",
+  "version": "0.0.0",
   "description": "library for anymoe",
   "main": "dist/anymoelib.umd.js",
   "module": "dist/anymoelib.esm.js",
@@ -10,20 +10,30 @@
     "build": "rimraf ./dist && tsc --module commonjs && rollup -c rollup.config.ts"
   },
   "author": "AnyMoe Team",
+  "maintainers": [
+    {
+      "name": "Rorical",
+      "url": "https://github.com/Rorical"
+    },
+    {
+      "name": "BackRunner",
+      "url": "https://github.com/backrunner"
+    }
+  ],
   "license": "GPLv3",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.6",
     "@types/node": "^16.11.6",
-    "@typescript-eslint/eslint-plugin": "^5.2.0",
-    "@typescript-eslint/parser": "^5.2.0",
-    "eslint": "^8.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.3.0",
+    "@typescript-eslint/parser": "^5.3.0",
+    "eslint": "^8.2.0",
     "eslint-config-alloy": "^4.4.0",
     "eslint-config-prettier": "^8.3.0",
     "prettier": "^2.4.1",
     "rimraf": "^3.0.2",
-    "rollup": "^2.58.3",
+    "rollup": "^2.59.0",
     "rollup-plugin-sourcemaps": "^0.6.3",
     "rollup-plugin-typescript2": "^0.30.0",
     "typescript": "^4.4.4"

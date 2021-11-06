@@ -1,2 +1,7 @@
-# anymoelib
- library for anymoe
+# anymoe-lib
+
+Universal library for AnyMoe.
+
+## License
+
+GPLv3
