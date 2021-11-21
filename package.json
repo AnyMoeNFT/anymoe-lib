@@ -1,6 +1,6 @@
 {
-  "name": "anymoe-lib",
-  "version": "0.0.0",
+  "name": "@anymoe/common",
+  "version": "0.1.0",
   "description": "library for anymoe",
   "main": "dist/anymoelib.umd.js",
   "module": "dist/anymoelib.esm.js",
